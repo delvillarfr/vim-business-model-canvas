@@ -3,15 +3,15 @@
 " Business Model Canvas
 " =====================
 "
-" Enjoy iterating your kickass business model with the help of an kickass text
+" Enjoy iterating your kickass business model with the help of a kickass text
 " editor under the version control system of your choice. Good Luck!
 "
 "
 " Usage:
 "
-" - To edit your BMC type ``vim -S bmc.vim``
-" - To save all your changes type ``:wa``
-" - To quit your BMC type ``:qa``
+" - To edit your BMC, type ``vim -S bmc.vim``
+" - To save all your changes, type ``:wa``
+" - To quit your BMC, type ``:qa``
 
 
 " Setup the window layout
@@ -48,16 +48,18 @@ botright split costs.md
 vertical split revenues.md
 
 
-" Turn of line numbers in each window (free up space)
+" Turn off line numbers in each window (free up space)
 windo setlocal nonumber
 
-" Turn line wrapping of (looks bad in narrow windows)
+
+" Turn line wrapping off (looks bad in narrow windows)
 windo setlocal nowrap
 
-" TODO: Place cursor on upper right window
+
+" Place cursor on upper left window
 wincmd h
 wincmd k
 
+
 " Spread windows equally across screen
 wincmd =
-
