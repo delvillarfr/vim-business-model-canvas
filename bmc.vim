@@ -12,32 +12,39 @@
 " - To edit your BMC type ``vim -S bmc.vim``
 " - To save all your changes type ``:wa``
 " - To quit your BMC type ``:qa``
-"
+
 
 " Setup the window layout
 
-" Key Partners
+"" Put new windows below and to the right
+setlocal splitbelow
+setlocal splitright
+
+"" Key Partners
 edit partners.md
 
-" Key Activities
+"" Key Activities
 vertical split activities.md
-" Key Resources
+
+"" Key Resources
 split resources.md
 
-" Value Propositions
+"" Value Propositions
 botright vertical split values.md
 
-" Customer Relationships
+"" Customer Relationships
 vertical split relationships.md
-" Channels
+
+"" Channels
 split channels.md
 
-" Customer Segments
+"" Customer Segments
 botright vertical split segments.md
 
-" Cost Structure
+"" Cost Structure
 botright split costs.md
-" Revenue Stream
+
+"" Revenue Stream
 vertical split revenues.md
 
 
