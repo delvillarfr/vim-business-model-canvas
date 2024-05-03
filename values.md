@@ -1,4 +1,4 @@
-# Value Propositions
+# Value Proposition
 
 - What value do we deliver to the customer?
 - Which one of our customer's problems are we helping to solve?

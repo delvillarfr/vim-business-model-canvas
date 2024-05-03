@@ -1,4 +1,4 @@
-# Revenue Stream
+# Revenue Streams
 
 - For what value are our customers really willing to pay?
 - For what do they currently pay?
